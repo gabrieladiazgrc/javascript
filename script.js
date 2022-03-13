@@ -1,3 +1,4 @@
+console.log("Ejercicio 1");
 const ejercicio1 = [
   3, 100, 85, 64, 46, 39, 40, 30, 20, 24, 25, 6, 10, 54, 82, 71, 67, 77, 17, 29,
   19, 88, 456, 13, 23, 24,
@@ -21,14 +22,14 @@ function numeroPrimo() {
         if (primo(a)) {
            console.log ("El número " + a + " es primo.") 
         } else {
-          console.log("El número " + a + "NO es primo.")
+          console.log("El número " + a + " NO es primo.")
         }
     })
 }
 
 numeroPrimo();
 
-
+console.log("Ejercicio 2");
 const ejercicio2 = [
   {
     nombre: "Gabriel",
@@ -67,7 +68,7 @@ let invitados = []
 
 for (let i = 0; i < ejercicio2.length; i++) {
   if (ejercicio2[i].edad >= 18 && ejercicio2[i].esFamiliar) {
-    console.log(ejercicio2[i].nombre + " bienvenido a la fiesta")
+    console.log(ejercicio2[i].nombre + " bienvenid@ a la fiesta")
   } else {
     console.log("Lo sentimos, acceso denegado.")
   }
