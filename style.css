@@ -35,3 +35,18 @@ li {
   padding: 0px;
   box-sizing: border-box;
 }
+
+p {
+  color: aliceblue;
+  margin-bottom: 50px;
+  max-width: 800px;
+  text-align: justify;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
